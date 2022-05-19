@@ -1,6 +1,6 @@
 .main_ras{
-    background-color: rgb(239,225,216);
     width: 100%;
+    background-image: linear-gradient(to right, #e04322, #e14d35, #e05646, #df6056, #dc6a64);
     clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
     padding-top: 10px;
 }

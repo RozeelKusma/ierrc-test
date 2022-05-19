@@ -1,8 +1,7 @@
 .main_junior{
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(to right, #0e4232, #165c4c, #1d7769, #239489, #28b1ab);
-    clip-path: polygon(0 0, 100% 14%, 100% 86%, 0% 100%);
+    background-image: linear-gradient(to right, #715b87, #7d6694, #8a71a2, #977cb0, #a487be);    clip-path: polygon(0 0, 100% 14%, 100% 86%, 0% 100%);
     margin-top: -7.5%;
     padding-top: 10%;
 }
