@@ -1,0 +1,45 @@
+.main_arcane{
+    width: 100%;
+    background-image: linear-gradient(to right, #2e3869, #364483, #3e519e, #465eb9, #4e6cd6);    
+    clip-path: polygon(0 13%, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -7.5%;
+    padding-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a_con{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    
+}
+.a_left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+.a_title{
+    display: flex;
+    color: rgb(202, 200, 82);
+}
+.a_info{
+    display: flex;
+    font-size: large;
+    color: rgb(36, 172, 18);
+}
+.a_right{
+    display: flex;
+    padding-right: 8%;
+    top: 0;
+    width: 100%;
+}
+.a_img{
+    display: flex;
+    border-radius: 8px;
+    width: 100%;
+    height: min-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}

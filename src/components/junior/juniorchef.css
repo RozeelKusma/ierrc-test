@@ -1,0 +1,43 @@
+.main_junior{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #0e4232, #165c4c, #1d7769, #239489, #28b1ab);
+    clip-path: polygon(0 0, 100% 14%, 100% 86%, 0% 100%);
+    margin-top: -7.5%;
+    padding-top: 10%;
+}
+.j_con{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.j_left{
+    display: flex;
+    padding-left: 5%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.j_img{
+    border-radius: 8px;
+    width: 60%;
+    height: auto;
+}
+.j_right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 8%;
+    justify-content: center;
+}
+.j_title{
+    display: flex;
+    color: rgb(97, 73, 204);
+}
+.j_info{
+    display: flex;
+    font-size: large;
+    color: rgb(17, 54, 202);
+}
