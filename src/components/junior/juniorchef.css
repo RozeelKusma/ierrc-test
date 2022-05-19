@@ -1,8 +1,7 @@
 .main_junior{
     height: 80vh;
     width: 100%;
-    background-color: rgb(172,151,188);
-    clip-path: polygon(0 0, 100% 14%, 100% 86%, 0% 100%);
+    background-image: linear-gradient(to right, #715b87, #7d6694, #8a71a2, #977cb0, #a487be);    clip-path: polygon(0 0, 100% 14%, 100% 86%, 0% 100%);
     margin-top: -7.5%;
     padding-top: 10%;
 }
@@ -21,8 +20,14 @@
 }
 .j_img{
     border-radius: 8px;
+    width: 80%;
+    height: auto;
+}
+.j_im{
+    border-radius: 8px;
     width: 60%;
     height: auto;
+
 }
 .j_right{
     width: 100%;

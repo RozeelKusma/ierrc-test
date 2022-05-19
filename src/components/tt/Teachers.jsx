@@ -12,9 +12,7 @@ const Teachers = () => {
             <p className="t_info">Intensive training for primary teachers</p>
             <p className="rm">Read more &gt;</p>
         </div>
-        <div className="t_right">
-            <img src={teachers} alt="" className="t_img" />
-        </div>
+       
        </div>
     </div>
   )

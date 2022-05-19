@@ -1,13 +1,14 @@
 .main_teachers{
     width: 100%;
-    background-color: rgb(246,135,154);
-    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 85%);
+   background-image: url('./../../assets/image/teach.jpeg');
+   background-repeat: no-repeat;
+   background-size: auto;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
     margin-top: -5%;
-    padding-top: 8%;
     
 }
 .t_con{
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     display: flex;
    
@@ -18,15 +19,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color:rgb(255,255,255,.7);
 }
 .t_title{
     display: flex;
-    color: rgb(74, 145, 74);
 }
 .t_info{
     display: flex;
     font-size: large;
-    color: rgb(17, 54, 202);
 }
 .t_right{
     display: flex;

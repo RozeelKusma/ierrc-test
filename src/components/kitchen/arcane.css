@@ -3,16 +3,16 @@
     background-color: rgb(88,154,173);
     clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 86%);
     margin-top: -7.5%;
-    padding-top: 15%;
+    
+    height: 100vh;
+    display: flex;
+   
+}
+.a_con{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.a_con{
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    
 }
 .a_left{
     width: 100%;
@@ -32,7 +32,7 @@
 .a_right{
     display: flex;
     padding-right: 8%;
-    top: 0;
+    align-items: center;
     width: 100%;
 }
 .a_img{
