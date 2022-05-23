@@ -1,0 +1,10 @@
+.footer_main{
+    display: flex;
+    justify-content: center;
+    background-color: #716969;
+    color: #fff;
+}
+.f_info{
+    font-size: small;
+    display: flex;
+}

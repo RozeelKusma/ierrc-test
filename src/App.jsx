@@ -7,6 +7,7 @@ import JuniorChef from './components/junior/JuniorChef'
 import Arcane from './components/kitchen/Arcane'
 import Bottom from './components/bottomtwo/Bottom'
 import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const App = () => {
         <Arcane/>
         <Bottom/>
         <Contact/>
+        <Footer/>
       </div>      
     </>
   )
