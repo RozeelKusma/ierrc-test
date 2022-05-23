@@ -22,7 +22,7 @@
    }
 .a_title{
     display: flex;
-    color: wheat;
+    color: rgb(245, 222, 179,.8);
 }
 .a_info{
     display: flex;
