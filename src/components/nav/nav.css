@@ -5,25 +5,25 @@
     height: 100px;
     align-items: center;
     background-color: #fff;
-    font-family: 'Oswald', sans-serif;
   }
-.logo  {
+  .logo  {
     display: flex;
-}
-.navlogo{
-  border-radius: 10px;
-  z-index: 1;
-  height: 100px;
-  width: auto;
-}
-
-.nav_btn{
+  }
+  .navlogo{
+    border-radius: 10px;
+    z-index: 1;
+    height: 100px;
+    width: auto;
+  }
+  
+  .nav_btn{
+  font-family: 'Oswald', sans-serif;
   cursor: pointer;
   margin-right: 20px;
   padding: 10px;
   border: none;
   background: transparent;
-  color: rgb(77, 75, 245);
+  color: rgb(0, 0,0);
   font-weight: bolder;
   font-size: x-large;
 }

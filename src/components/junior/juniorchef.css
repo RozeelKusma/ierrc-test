@@ -36,6 +36,7 @@
     align-items: center;
     padding-right: 8%;
     justify-content: center;
+    cursor: pointer;
 }
 .j_title{
     display: flex;

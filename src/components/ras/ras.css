@@ -4,18 +4,19 @@
    background-size: cover;
     width: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
-    padding-top: 10px;
     display: flex;
     height: 80vh;
 }
 .ras_con{
-    
+    margin-top: 10px;
+    color: #fff;
     width: 100%;
     height: auto;
     border-top: 2px dashed black;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    z-index: 1;
 }
 .right{
     width: 50%;
@@ -23,6 +24,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .ras_title{
     display: flex;
@@ -30,7 +32,10 @@
 .ras_info{
     display: flex;
     font-size: large;
-    color: rgb(81, 85, 33);
+   
+}
+.rm{
+    font-size: larger;
 }
 .rm:hover{
     cursor: pointer;
@@ -47,4 +52,10 @@
     width: 90%;
     height: fit-content;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.overlay{
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
 }

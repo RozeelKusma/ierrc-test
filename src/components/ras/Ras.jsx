@@ -5,6 +5,9 @@ import ras from './../../assets/image/afterschool.png'
 const Ras = () => {
   return (
     <div className='main_ras'>
+        <div className="overlay"/>
+
+       
       <div className="ras_con">
         <div className="right">
           <img src="https://static.wixstatic.com/media/ccd558_db2203ecf3414f0ab8df1729a636705e~mv2.png/v1/fill/w_96,h_96,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/creativity-removebg-preview.png" alt="" className="ras_logo" />
