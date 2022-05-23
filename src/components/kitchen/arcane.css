@@ -22,12 +22,12 @@
    }
 .a_title{
     display: flex;
-    color: rgb(202, 200, 82);
+    color: wheat;
 }
 .a_info{
     display: flex;
     font-size: large;
-    color: rgb(36, 172, 18);
+    color: #fff;
 }
 .a_right{
     display: flex;

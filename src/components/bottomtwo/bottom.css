@@ -30,20 +30,23 @@
 }
 .left_bottom{
     background-color: rgb(84,144,110);
+    display: flex;
 }
 .right_bottom{
     background-color: rgb(102,158,123);
+    display: flex;
+    text-align: center;
 }
 .gaf_logo {
   display: flex;
 }
 .gaf_title {
   display: flex;
-  color: slateblue;
+  color: rgb(0,0,0);
 }
 .gaf_info {
   display: flex;
-  color: mediumblue;
+  
 }
 
 .emp_logo {
@@ -51,9 +54,9 @@
 }
 .emp_title {
   display: flex;
-  color: mediumblue;
+  
 }
 .emp_info {
   display: flex;
-  color: slateblue;
+  
 }
