@@ -7,6 +7,7 @@ import { MdLocationPin } from "react-icons/md";
 import { AiFillInstagram, AiFillFacebook } from "react-icons/ai";
 import { FaTiktok } from "react-icons/fa";
 
+
 const Contact = () => {
   return (
     <div className="main_contact">
@@ -22,7 +23,7 @@ const Contact = () => {
             <td>
               <GrMail size={30} />
             </td>
-            <td> ierrcentre@gmail.com </td>
+            <td onClick={() => window.location = 'mailto:ierrcentre@gmail.com'} className="mail_btn">ierrcentre@gmail.com  </td>
           </tr>
           <tr>
             <td>
