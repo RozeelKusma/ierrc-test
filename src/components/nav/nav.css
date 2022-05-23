@@ -5,7 +5,8 @@
     height: 100px;
     align-items: center;
     background-color: #fff;
-}
+    font-family: 'Oswald', sans-serif;
+  }
 .logo  {
     display: flex;
 }
