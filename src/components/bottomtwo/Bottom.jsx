@@ -13,7 +13,7 @@ const Bottom = () => {
           />
           <h1 className="gaf_title">GREEN AFTER-SCHOOL & FARM STAY</h1>
           <p className="gaf_info">Dingla, Bhojpur, Nepal</p>
-          <p className="rm">Read more &gt;</p>
+          <p className="rm5">Read more &gt;</p>
         </div>
         <div className="right_bottom">
           <img
@@ -25,7 +25,7 @@ const Bottom = () => {
             EMPOWERMENT OF PEOPLE WITH HEARING AND SPEAKING DISABILITIES
           </h1>
           <p className="emp_info">A platform for specialized growth</p>
-          <p className="rm">Read more &gt;</p>
+          <p className="rm5">Read more &gt;</p>
         </div>
       </div>
     </div>

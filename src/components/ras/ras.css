@@ -36,10 +36,11 @@
 }
 .rm{
     font-size: larger;
+    color: rgb(255,255,255,.7);
 }
 .rm:hover{
     cursor: pointer;
-    color: rgb(46, 75, 2);
+    color: #fff;
 
 }
 .left{

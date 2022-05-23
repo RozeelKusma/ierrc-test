@@ -1,12 +1,13 @@
 .main_junior{
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(to right, #715b87, #7d6694, #8a71a2, #977cb0, #a487be);    clip-path: polygon(0 0, 100% 14%, 100% 86%, 0% 100%);
+    background-color: rgb(155,118,180);
+    clip-path: polygon(0 0, 100% 14%, 100% 86%, 0% 100%);
     margin-top: -7.5%;
     padding-top: 10%;
 }
 .j_con{
-    
+    color: rgb(68,29,95);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -45,5 +46,11 @@
 .j_info{
     display: flex;
     font-size: large;
-    color: rgb(17, 54, 202);
+    
+}
+.rm3{
+    color:  rgb(0,0,0,.7);
+}
+.rm3:hover{
+    color: rgb(0,0,0);
 }

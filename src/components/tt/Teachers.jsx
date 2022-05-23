@@ -1,6 +1,6 @@
 import React from 'react'
 import './teachers.css'
-import teachers from './../../assets/image/teachers.webp'
+
 
 const Teachers = () => {
   return (

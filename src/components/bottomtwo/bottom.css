@@ -5,7 +5,7 @@
   padding-top: 5%;
   margin-top: -10%;
   clip-path: polygon(0 0, 100% 13%, 100% 100%, 0 100%);
-  background-color: rgb(151,194,166);  
+  background-color: rgb(75,209,160);  
 }
 .b_con {
   display: flex;
@@ -15,6 +15,7 @@
 
 .left_bottom,
 .right_bottom {
+  padding: 50px;
   margin: 2%;
   border-radius: 10px;
   width: 100%;
@@ -24,16 +25,18 @@
   align-items: center;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: rgb(255,255,255,.8);
 }
 .left_bottom, .right_bottom:hover{
     cursor: pointer;
+    
 }
 .left_bottom{
-    background-color: rgb(84,144,110);
+  
     display: flex;
+    text-align: center;
 }
 .right_bottom{
-    background-color: rgb(102,158,123);
     display: flex;
     text-align: center;
 }
@@ -42,7 +45,8 @@
 }
 .gaf_title {
   display: flex;
-  color: rgb(0,0,0);
+  
+  min-height: 84px;
 }
 .gaf_info {
   display: flex;
@@ -54,9 +58,15 @@
 }
 .emp_title {
   display: flex;
-  
+  min-height: 84px;
 }
 .emp_info {
   display: flex;
   
+}
+.rm5{
+  color: rgb(0,0,0,.7);
+}
+.rm5:hover{
+  color: black;
 }

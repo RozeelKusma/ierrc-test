@@ -1,6 +1,6 @@
 .main_arcane{
     width: 100%;
-    background-color: rgb(88,154,173);
+    background-color: rgb(237,237,237);
     clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 86%);
     margin-top: -7.5%;
     height: 100vh;
@@ -8,6 +8,7 @@
     
 }
 .a_con{
+    color: rgb(75,209,160);
     width: 100%;
     display: flex;
     align-items: center;
@@ -22,12 +23,12 @@
    }
 .a_title{
     display: flex;
-    color: rgb(245, 222, 179,.8);
+    
 }
 .a_info{
     display: flex;
-    font-size: large;
-    color: #fff;
+   
+    
 }
 .a_right{
     display: flex;
@@ -42,4 +43,10 @@
     height: min-content;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
+}
+.rm4{
+    color:rgb(75,209,160,.6) ;
+}
+.rm4:hover{
+    color:rgb(75,209,160)
 }
