@@ -9,14 +9,13 @@
 }
 .logo  {
     display: flex;
-  }
+}
 .navlogo{
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   position: absolute;
   top:20px;
   border-radius: 10px;
   z-index: 1;
-  background-color: #fff;
   height: 120px;
   width: auto;
 }
