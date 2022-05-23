@@ -17,6 +17,8 @@
   border-radius: 10px;
   z-index: 1;
   background-color: #fff;
+  height: 120px;
+  width: auto;
 }
 
 .nav_btn{
