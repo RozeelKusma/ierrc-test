@@ -8,7 +8,7 @@
     
 }
 .a_con{
-    color: rgb(75,209,160);
+    color: #3CCD98;
     width: 100%;
     display: flex;
     align-items: center;
@@ -23,11 +23,10 @@
    }
 .a_title{
     display: flex;
-    
 }
 .a_info{
     display: flex;
-   
+    color: #3CCD98;
     
 }
 .a_right{
@@ -45,8 +44,8 @@
 
 }
 .rm4{
-    color:rgb(75,209,160,.6) ;
+    color:rgb(60, 205, 152,.7) ;
 }
 .rm4:hover{
-    color:rgb(75,209,160)
+    color:#3CCD98;
 }
