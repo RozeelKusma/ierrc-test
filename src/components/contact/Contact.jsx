@@ -10,7 +10,7 @@ import { FaTiktok } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="main_contact">
+    <div className="main_contact" id="contact">
       <div className="cleft">
         <table className="contact">
           <tr>
