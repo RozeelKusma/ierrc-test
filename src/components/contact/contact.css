@@ -30,7 +30,7 @@ td{
 .lo{
     height: 120px;
     width: auto;
-    transition: all .2s linear;
+    transition: all .3s linear;
 }
 .lo:hover{
     transform: scale(1.5);
