@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import logo from "./../../assets/image/ierrc-logo.png";
+import logo from "./../../../assets/image/ierrc-logo.png";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 import { MdLocationPin } from "react-icons/md";

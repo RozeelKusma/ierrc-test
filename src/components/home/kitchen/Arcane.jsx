@@ -1,6 +1,6 @@
 import React from 'react'
 import './arcane.css'
-import kitchen from './../../assets/image/kitchen.jpg'
+import kitchen from './../../../assets/image/kitchen.jpg'
 
 const Arcane = () => {
   return (

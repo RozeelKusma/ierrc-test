@@ -1,6 +1,6 @@
 .main_teachers{
     width: 100%;
-   background-image: url('./../../assets/image/teach.jpeg');
+   background-image: url('./../../../assets/image/teach.jpeg');
    background-repeat: no-repeat;
    background-size: auto;
     clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
@@ -14,7 +14,11 @@
     justify-content: center;
     align-items: center;
 }
+.tt{
+    text-decoration: none;
+}
 .t_left{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;

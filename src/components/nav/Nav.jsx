@@ -1,7 +1,8 @@
 import React from 'react'
 import './nav.css'
 import logo from './../../assets/image/ierrc-logo.png'
-import { Link } from 'react-scroll'
+import {Link as Link1} from 'react-scroll'
+import { Link as Link2} from 'react-router-dom'
 
 const Nav = () => {
     
@@ -11,11 +12,15 @@ const Nav = () => {
             <img src={logo} alt='Logo' className='navlogo'/>
         </div>
         <div className="nav_right">
-            <button className='nav_btn'>HOME</button>
+            <Link2 to='/' >
+            <button className='nav_btn'>
+              HOME
+              </button>
+            </Link2>
             <button className='nav_btn'>ABOUT</button>
-           <Link to="contact" spy={true} smooth={true}>
+           <Link1 to="contact" spy={true} smooth={true}>
             <button className='nav_btn'>CONTACT</button>
-           </Link>
+           </Link1>
         </div>
     </div>
   )

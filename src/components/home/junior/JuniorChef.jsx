@@ -1,7 +1,7 @@
 import React from 'react'
 import './juniorchef.css'
-import chef from './../../assets/image/chef.png'
-import chef2 from './../../assets/image/chef2.png'
+import chef from '../../../assets/image/chef.png'
+import chef2 from '../../../assets/image/chef2.png'
 const JuniorChef = () => {
   return (
     <div className='main_junior'>
