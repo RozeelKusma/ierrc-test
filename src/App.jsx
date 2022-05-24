@@ -8,9 +8,15 @@ import Arcane from './components/kitchen/Arcane'
 import Bottom from './components/bottomtwo/Bottom'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 const App = () => {
   return (
     <>
+     <MessengerCustomerChat
+    pageId="100161405092658"
+    appId="1326291934532407"
+    
+  />
       <Nav/>
       <div className="contents">
         <Ras/>
