@@ -1,7 +1,9 @@
 .main_junior{
     height: 80vh;
     width: 100%;
-    background-color: rgb(155,118,180);
+    background-image: url(./../../assets/image/junior.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     clip-path: polygon(0 0, 100% 14%, 100% 86%, 0% 100%);
     margin-top: -7.5%;
     padding-top: 10%;

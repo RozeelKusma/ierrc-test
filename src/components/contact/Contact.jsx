@@ -17,7 +17,7 @@ const Contact = () => {
             <td>
               <BsFillTelephoneFill size={30} />
             </td>
-            <td>+977-9818274300, +977-9823378032</td>
+            <td>+977-9840321452, +977-9823378032</td>
           </tr>
           <tr>
             <td>
