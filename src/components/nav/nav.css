@@ -10,10 +10,9 @@
     display: flex;
   }
   .navlogo{
-    
-    z-index: 1;
     height: 100px;
     width: auto;
+    transition: all .3s linear;
   }
   
   .nav_btn{
@@ -26,4 +25,9 @@
   color: rgb(0, 0,0);
   font-weight: bolder;
   font-size: x-large;
+}
+.navlogo:hover{
+  transform: scale(1.5);
+  background-color: rgb(255,255,255,.6);
+  border-radius: 5px;
 }
