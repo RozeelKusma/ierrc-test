@@ -7,6 +7,7 @@ import { Route, BrowserRouter, Routes } from 'react-router-dom'
 import Home from './components/home/Home'
 import Footer from './components/home/footer/Footer'
 import Contact from './components/home/contact/Contact'
+import Ramailo from './components/body/ramailo/Ramailo'
 const App = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/teachers-training' element={<Services/>}/>
+        <Route path='/ramailo-after-school' element={<Ramailo/>}/>
         </Routes>
         <Contact/>
         <Footer/>

@@ -1,0 +1,30 @@
+.ramailo_main{
+    padding: 2%;
+}
+.page_title{
+    text-shadow: 7px 6px 6px rgba(32,43,134,0.58);
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0,0,0,.5);
+}
+.ramailo_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    margin: 0 5%;
+}
+.ramailo_top{
+    display: flex;
+    
+}
+.ramailo_info{
+    display: flex;
+    width: 40%;
+    text-align: justify;
+}
+.top_img{
+    display: flex;
+    width: auto;
+}
