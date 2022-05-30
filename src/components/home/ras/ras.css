@@ -14,6 +14,7 @@
     height: auto;
     border-top: 2px dashed black;
     display: flex;
+    
     align-items: center;
     justify-content: flex-end;
     padding-right: 10%;
@@ -64,4 +65,15 @@
     height: 80vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
+}
+.enq{
+    display: flex;
+    
+}
+.enquire{
+    display: flex;
+    color: rgb(255,255,255,.7);
+}
+.enquire:hover{
+    color: #fff;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './teachers.css'
-
+import {AiFillQuestionCircle} from 'react-icons/ai'
 
 const Teachers = () => {
   return (
@@ -14,6 +14,7 @@ const Teachers = () => {
             <h1 className="t_title">TEACHER TRAINING</h1>
             <p className="t_info">Intensive training for primary teachers</p>
             <p className="rm">Read more &gt;</p>
+            <AiFillQuestionCircle className='enquire' size={30} title='Enquiry'/>
         </div>
          </Link>
        

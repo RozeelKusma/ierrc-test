@@ -8,6 +8,10 @@ import Home from './components/home/Home'
 import Footer from './components/home/footer/Footer'
 import Contact from './components/home/contact/Contact'
 import Ramailo from './components/body/ramailo/Ramailo'
+import Enquire from './components/home/ras/Enquire'
+import GreenAfter from './components/body/green/GreenAfter'
+import VolunteerForm from './components/body/green/volunteer/VolunteerForm'
+import Experience from './components/body/green/experience/Experience'
 const App = () => {
   return (
     <>
@@ -17,6 +21,10 @@ const App = () => {
         <Route path='/' element={<Home/>}/>
         <Route path='/teachers-training' element={<Services/>}/>
         <Route path='/ramailo-after-school' element={<Ramailo/>}/>
+        <Route path='/ramailo-after-school/enquiry' element={<Enquire/>}/>
+        <Route path='/green-after-school-&-farm-stay' element={<GreenAfter/>}/>
+        <Route path='/green-after-school-&-farm-stay/volunteer' element={<VolunteerForm/>}/>
+        <Route path='/green-after-school-&-farm-stay/experience-farm' element={<Experience/>}/>
         </Routes>
         <Contact/>
         <Footer/>

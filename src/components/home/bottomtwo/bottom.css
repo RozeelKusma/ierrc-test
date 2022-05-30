@@ -32,13 +32,13 @@
     
 }
 .left_bottom{
-  
     display: flex;
-    text-align: center;
+    width: 100%;
 }
 .right_bottom{
     display: flex;
     text-align: center;
+    width: 100%;
 }
 .gaf_logo {
   display: flex;
@@ -51,6 +51,14 @@
 .gaf_info {
   display: flex;
   
+}
+.link_left{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .emp_logo {

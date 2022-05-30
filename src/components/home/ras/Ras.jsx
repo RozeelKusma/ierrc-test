@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./ras.css";
+import {AiFillQuestionCircle} from 'react-icons/ai'
 
 const Ras = () => {
   return (
@@ -18,8 +19,12 @@ const Ras = () => {
           <h1 className="ras_title">RAMAILO AFTER SCHOOL</h1>
           <p className="ras_info">Creative after-school events</p>
           <p className="rm">Read more &gt;</p>
+        <Link to='ramailo-after-school/enquiry'>
+        <AiFillQuestionCircle size={30} className='enquire' title="Enquiry"/>
+        </Link>
         </div>
         </Link>
+        
       </div>
     </div>
   );

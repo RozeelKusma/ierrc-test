@@ -28,6 +28,7 @@
 }
 .navlogo:hover{
   transform: scale(1.5);
-  background-color: rgb(255,255,255,.6);
+  background-color: rgb(255,255,255,.9);
   border-radius: 5px;
+  z-index: 1;
 }

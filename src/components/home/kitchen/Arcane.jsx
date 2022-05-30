@@ -1,6 +1,7 @@
 import React from 'react'
 import './arcane.css'
 import kitchen from './../../../assets/image/kitchen.jpg'
+import { AiFillQuestionCircle } from 'react-icons/ai'
 
 const Arcane = () => {
   return (
@@ -11,6 +12,7 @@ const Arcane = () => {
                 <h1 className="a_title">ARCANE QUEST</h1>
                 <p className="a_info">An insightful evening filled with culinary abstract</p>
                 <p className="rm4">Read more &gt;</p>
+                <AiFillQuestionCircle size={30} title="Enquiry"/>
             </div>
             <div className="a_right">
                 <img src={kitchen} alt="" className="a_img" />
