@@ -12,6 +12,7 @@ import Enquire from './components/home/ras/Enquire'
 import GreenAfter from './components/body/green/GreenAfter'
 import VolunteerForm from './components/body/green/volunteer/VolunteerForm'
 import Experience from './components/body/green/experience/Experience'
+import Empowerment from './components/body/empowerment/Empowerment'
 const App = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='/green-after-school-&-farm-stay' element={<GreenAfter/>}/>
         <Route path='/green-after-school-&-farm-stay/volunteer' element={<VolunteerForm/>}/>
         <Route path='/green-after-school-&-farm-stay/experience-farm' element={<Experience/>}/>
+        <Route path='/eopwhasd' element={<Empowerment/>}/>
         </Routes>
         <Contact/>
         <Footer/>
