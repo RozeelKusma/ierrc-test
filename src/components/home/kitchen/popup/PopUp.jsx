@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import './popup.css'
 
 export default class PopUp extends Component {
@@ -10,18 +11,23 @@ export default class PopUp extends Component {
     return (
       <div className="modal">
         <div className="modal_content">
+          Where to???
           <span className="close" onClick={this.handleClick}>
             &times;
           </span>
-          <form>
-            <h3>Register!</h3>
-            <label>
-              Name:
-              <input type="text" name="name" />
-            </label>
-            <br />
-            <input type="submit" />
-          </form>
+          <div className="contentss">
+            <Link to='/arcane-quest/info' className="arc_link">
+          <div className="inform">
+            Information
+          </div>
+            </Link>
+            <Link to='/arcane-quest/booking' className='arc_link'>
+          <div className="booking">
+
+            Booking
+          </div>
+            </Link>
+          </div>
         </div>
       </div>
     );

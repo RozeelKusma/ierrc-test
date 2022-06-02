@@ -13,6 +13,8 @@ import GreenAfter from './components/body/green/GreenAfter'
 import VolunteerForm from './components/body/green/volunteer/VolunteerForm'
 import Experience from './components/body/green/experience/Experience'
 import Empowerment from './components/body/empowerment/Empowerment'
+import ArcInfo from './components/home/kitchen/arcinfo/ArcInfo'
+import ArcBooking from './components/home/kitchen/arcbooking/ArcBooking'
 const App = () => {
   return (
     <>
@@ -27,6 +29,8 @@ const App = () => {
         <Route path='/green-after-school-&-farm-stay/volunteer' element={<VolunteerForm/>}/>
         <Route path='/green-after-school-&-farm-stay/experience-farm' element={<Experience/>}/>
         <Route path='/eopwhasd' element={<Empowerment/>}/>
+        <Route path='/arcane-quest/info' element={<ArcInfo/>}/>
+        <Route path='/arcane-quest/booking' element={<ArcBooking/>}/>
         </Routes>
         <Contact/>
         <Footer/>
