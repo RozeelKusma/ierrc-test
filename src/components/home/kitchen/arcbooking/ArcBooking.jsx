@@ -2,38 +2,39 @@ import React from 'react'
 import './arcbooking.css'
 
 const ArcBooking = () => {
-    var day = new Date();
-
-    if(day.getDay()===0)
-    {
-        return(
-            <div>
-                Sunday Menu
+    return(
+        <div className="booking_main">
+            <div className="booking_content">
+                <div className="booking_title">
+                Which menu do you want to cook???
+                </div>
+                <div className="wed">
+                    <div className="wed_left">
+                    <img src='https://shikharsamachar.com/wp-content/uploads/2020/03/maxresdefault-2.jpg' alt="" className="wed_img" />
+                    </div>
+                    <div className="wed_right">
+                    Nepalese Traditional food for Wednesday.
+                    </div>
+                </div>
+                <div className="fri">
+                <div className="wed_left">
+                    <img src='https://ps.w.org/dummy-images/assets/icon-256x256.png?rev=2024916' alt="" className="wed_img" />
+                    </div>
+                    <div className="wed_right">
+                    Friday Menu
+                    </div> 
+                </div>
+                <div className="sun">
+                <div className="wed_left">
+                    <img src='https://ps.w.org/dummy-images/assets/icon-256x256.png?rev=2024916' alt="" className="wed_img" />
+                    </div>
+                    <div className="wed_right">
+                    Sunday Menu
+                    </div>
+                </div>
             </div>
-        )
-    }
-    else if(day.getDay()===3){
-        return(
-            <div>
-                Wednesday Menu
-            </div>
-        )
-    }
-    else if(day.getDay()===5){
-        return(
-            <div>
-                Friday Menu
-            </div>
-        )
-    }
-    else{
-
-        return (
-            <div>
-                Welcome
-    </div>
-  )
-}
+        </div>
+    )
 }
 
 export default ArcBooking

@@ -1,0 +1,44 @@
+.booking_main{
+    display: flex;
+    background-color: #d8dede;
+background-image: linear-gradient(315deg, #d8dede 0%, #e5bdf6 74%);
+}
+.booking_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.booking_title{
+    display: flex;
+    font-size: xx-large;
+    padding: 3%;
+    
+}
+.wed, .fri, .sun{
+    display: flex;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 50%;
+    color: white;
+    font-size: larger;
+    background-color: #7f53ac;
+background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}
+.wed_left{
+    width: 30%;
+}
+.wed_right{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+}
+.wed_img{
+    height: auto;
+    width: 100%;
+}
+
