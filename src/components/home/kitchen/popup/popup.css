@@ -54,6 +54,9 @@
     padding: 10px;
     text-align: center;
   }
+  .inform{
+    margin-right: 10px;
+  }
   .arc_link{
     color: aliceblue;
     text-decoration: none;
