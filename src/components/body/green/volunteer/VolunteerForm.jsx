@@ -37,7 +37,7 @@ const VolunteerForm = () => {
               </li>
               <li>Separate room with separate bathroom: 200$ per month</li>
             </ol>
-            <b>Fooding: </b>
+            <b>Fooding: </b><br/>
             For sustainability, the farm stay operates a local outlet. It sells
             affordable Nepali dal bhat, dumplings, millet/buckwheat bread, and
             seasonal fruits and vegetables.
