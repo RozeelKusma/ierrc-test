@@ -31,6 +31,15 @@ This can be viewed as an opportunity to gain firsthand knowledge of village life
           </div>
         </Link>
       </div>
+      <div className="dingla">
+        <h1 className="dingla_title">
+          About Dingla
+        </h1>
+      Dingla is our project location in the eastern part of Nepal, on the rim of the Arun Valley. The Arun valley is rich in history, with Sir Edmund Hillary, the first successful climber to Mount Everest, exploring this route to the summit.
+Sadananda, a pioneer in many fields such as Sanskrit education and the abolition of social evils such as slavery, Satipratha (immolation of wives on their deceased husband's pyre).
+Yogmaya, a woman revolutionary who, along with 67 followers, sacrificed themselves (took Jalsamadhi) in defiance of patriarchal dominance.
+Dingla is a multilingual, multi-cultural, and multi-religious community where visitors can participate in a variety of festivals and cultural activities.
+      </div>
     </div>
   );
 };

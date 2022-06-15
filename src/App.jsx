@@ -18,6 +18,7 @@ import ArcBooking from './components/home/kitchen/arcbooking/ArcBooking'
 import Sunday from './components/home/kitchen/arcbooking/sunday/Sunday'
 import Wednesday from './components/home/kitchen/arcbooking/wednesday/Wednesday'
 import Friday from './components/home/kitchen/arcbooking/friday/Friday'
+import Choice from './components/home/kitchen/arcbooking/choice/Choice'
 const App = () => {
   return (
     <>
@@ -37,6 +38,7 @@ const App = () => {
         <Route path='/arcane-quest/booking/sunday-menu' element={<Sunday/>}/>
         <Route path='/arcane-quest/booking/wednesday-menu' element={<Wednesday/>}/>
         <Route path='/arcane-quest/booking/friday-menu' element={<Friday/>}/>
+        <Route path='/arcane-quest/choose' element={<Choice/>}/>
         </Routes>
         <Contact/>
         <Footer/>

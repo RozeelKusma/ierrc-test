@@ -71,3 +71,10 @@
     justify-content: center;
     position: absolute;
 }
+.dingla{
+    text-align: justify;
+    padding: 1% 7%;
+}
+.dingla_title{
+    text-align: center;
+}

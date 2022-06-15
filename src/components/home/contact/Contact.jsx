@@ -23,7 +23,7 @@ const Contact = () => {
             <td>
               <GrMail size={30} />
             </td>
-            <td onClick={() => window.location = 'mailto:ierrcentre2018@gmail.com'} className="mail_btn">ierrcentre@gmail.com  </td>
+            <td onClick={() => window.location = 'mailto:ierrcentre2018@gmail.com'} className="mail_btn">ierrcentre2018@gmail.com  </td>
           </tr>
           <tr>
             <td>

@@ -21,7 +21,7 @@ export default class PopUp extends Component {
             Information
           </div>
             </Link>
-            <Link to='/arcane-quest/booking' className='arc_link'>
+            <Link to='/arcane-quest/choose' className='arc_link'>
           <div className="booking">
 
             Booking
