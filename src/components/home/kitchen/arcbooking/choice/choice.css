@@ -3,7 +3,7 @@
 background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
 }
 .c_title{
-    padding: 2%;
+    padding: 1%;
     position: relative;
 }
 .choice_s {
@@ -44,17 +44,17 @@ background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
 }
 .c1 {
   left: 45%;
-  top: 25%;
+  top: 27%;
 }
 .c2 {
   left: 30%;
-  top: 35%;
+  top: 37%;
 }
 .c3 {
   left: 60%;
-  top: 35%;
+  top: 37%;
 }
 .c4 {
   left: 45%;
-  top: 50%;
+  top: 52%;
 }
