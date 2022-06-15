@@ -18,7 +18,9 @@ export default class Arcane extends React.Component {
     return (
       <div className="choice_main">
         <div className="choice_container">
-          <h1 className="c_title">Select your choice</h1>
+          <div className="c_title">
+            <h1>Select your choice</h1>
+            </div>
           <div className="choice_s">
             <div className="c1" onClick={this.togglePop}>
               Solo Adventure
